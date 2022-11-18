@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="family, Ivan,Sergii,Ksenia,Sofya" />
+    <meta
+      name="description"
+      content="There is an information about our friendly family"
+    />
+    <title>Our Family</title>
+  </head>
+  <body>
+    <header>
+      <h1>This is website of our Family</h1>
+      <hr />
+    </header>
+    <h3>We are really happy and friendly</h3>
+    <img
+      class="picture"
+      id="main_picture"
+      src="foto/IMG-2356.jpg"
+      alt="Ours picture"
+      width="300"
+    />
+    <form>
+      <div>
+        <label>Rate this foto!</label>
+        <input type="radio" name="foto_family" />1
+        <input type="radio" name="foto_family" />2
+        <input type="radio" name="foto_family" />3
+        <input type="radio" name="foto_family" />4
+        <input type="radio" name="foto_family" />5
+      </div>
+      <div>
+        <button type="submit">LIKE!</button>
+      </div>
+    </form>
+    <br />
+    <p
+      class="story"
+      contenteditable="falce"
+      id="familyinfo"
+      title="here is general information about our family"
+    >
+      Hi! We are the Ogulcanskyi family and we want to tell about ourselves. Our
+      family has a father - his name is Sergii, a mother - her name is Ksenia,
+      the eldest son Ivan and the youngest daughter Sofya. We love each other
+      very much and it's hard for us when we're not together. We are fun, smart
+      and athletic. Each of us has many hobbies. You can find out more if you go
+      to someone's personal page.
+    </p>
+    <h3>Our personal pages:</h3>
+    <div class="links" id="main_page_links">
+      <a href="dad_page.html">The Sergii's page</a>
+      <a href="mom_page.html">The Ksenia's page</a>
+      <a href="son_page.html">The Ivan's page</a>
+      <a href="daugter_page.html">The Sofya's page</a>
+    </div>
+    <h4>If you want contact with us, you can write in form:</h4>
+    <form>
+      <div>
+        <label for="choose"> Choose your gender:</label>
+        <select>
+          <option value="Man">Man</option>
+
+          <option value="Woman">Woman</option>
+
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div>
+        <label for="date"> Indicate your age:</label>
+        <input type="date" id="date" />
+      </div>
+      <div>
+        <label for="text">Your first name:</label>
+        <input type="text" id="text" placeholder="Enter your name..." />
+      </div>
+      <div>
+        <label for="text2">Your last name:</label>
+        <input type="text" id="text2" placeholder="Enter your last name..." />
+      </div>
+      <div>
+        <label for="text3">Your email adress:</label>
+        <input type="email" id="text3" placeholder="Enter your email..." />
+      </div>
+      <div>
+        <label for="text4">Write you massage:</label>
+        <br />
+        <textarea type="text" id="text4" rows="10"> </textarea>
+        />
+      </div>
+      <div><button type="submit">Submit!</button></div>
+    </form>
+  </body>
+</html>
